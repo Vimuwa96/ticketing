@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link:hover {
+  color: rgb(3, 3, 3);
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.search-section {
+  background-color: rgb(3, 23, 116);
+  position: relative;
+}
+
+.download-link {
+  background-color: rgb(235, 157, 13);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.search-section h3 {
+  color: white;
+  font-weight: 600;
+  z-index: 10;
+}
+
+.search-section p {
+  color: white;
+  z-index: 10;
+}
+
+.search-event-form {
+  padding: 15px 25px;
+  border: none;
+
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  z-index: 100;
+}
+
+.search-event {
+  display: flex;
+  justify-content: center;
+}
+
+.search-event button {
+  border: none;
+  background-color: rgb(235, 157, 13);
+  padding: 15px 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: white;
+}
+
+.search-event button i {
+  color: #ffffff;
+  padding-left: 15px;
+}
+
+.search-event-form {
+  z-index: 1000;
+}
+.bg-left-image {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.bg-left-image img {
+  height: 250px;
+}
+
+.bg-right-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.bg-right-image img {
+  height: 250px;
+}
+
+.search-section-heading h3 {
+  z-index: 1000;
+}
+.events-wrapper h2 {
+  font-weight: 700;
+  color: rgb(3, 23, 116);
+}
+
+.events-wrapper span {
+  font-weight: 500;
+  color: rgb(56, 52, 52);
+}
+
+.event-card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 15px;
+}
+
+.event-name-header h5 {
+  color: rgb(27, 27, 27);
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+}
+
+.event-date-time {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(253, 4, 4);
+}
+
+.event-card-wrapper {
+  border-radius: 15px;
+}
+.event-card-image {
+  overflow: hidden;
+  display: inline-block;
+}
+.event-card-image img {
+  object-fit: contain;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  transition: transform 0.2s linear;
+}
+
+.event-card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.event-tickets p {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.book-tickets-btn {
+  display: flex;
+  justify-content: end;
+}
+
+.book-tickets-btn a {
+  background-color: rgb(17, 17, 17);
+  color: white;
+  font-size: 14px;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+.event-card:hover .book-tickets-btn a {
+  background-color: rgb(235, 157, 13);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+.event-card:hover .tickets-details {
+  position: absolute;
+  top: 20%;
+  background-color: #ffffff;
+  color: black;
+  padding: 8px 15px;
+  visibility: visible;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.event-card:hover .event-card-image img {
+  transform: scale(1.1);
+  overflow: hidden;
+  display: inline-block;
+  border-top-left-radius: 15px;
+}
+.event-card-image {
+  position: relative;
+}
+
+.tickets-details {
+  position: absolute;
+  top: 20%;
+  background-color: #ffffff;
+  color: black;
+  padding: 8px 15px;
+  visibility: hidden;
+  transition: 0.5s ease-out;
+  font-size: 10px;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
