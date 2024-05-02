@@ -18,7 +18,7 @@ a {
 }
 
 .search-section {
-  background-color: rgb(3, 23, 116);
+  background-color: #04041a;
   position: relative;
 }
 
@@ -339,9 +339,13 @@ a {
 }
 
 .social-link i {
-  color: #08b2f5;
+  color: #dde2e4;
+  transition: 0.5s;
 }
 
+.social-link i:hover {
+  color: #1cafe9;
+}
 .main-footer-wrapper h6 {
   color: #e7f1f5;
 }
@@ -358,6 +362,12 @@ a {
 
 .site-map-link a:hover {
   font-size: 14px;
-  color: rgb(72, 119, 207);
+  color: rgb(46, 64, 99);
+  padding-left: 5px;
+}
+
+.site-map-link a:hover .site-header h6 {
+  font-size: 14px;
+  color: rgba(248, 2, 2, 0.911) !important;
   padding-left: 5px;
 }
