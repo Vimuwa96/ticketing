@@ -57,7 +57,7 @@ a {
 .search-event button {
   border: none;
   background-color: rgb(235, 157, 13);
-  padding: 15px 15px;
+  padding: 5px 15px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   color: white;
@@ -65,7 +65,7 @@ a {
 
 .search-event button i {
   color: #ffffff;
-  padding-left: 15px;
+  padding-right: 5px;
 }
 
 .search-event-form {
