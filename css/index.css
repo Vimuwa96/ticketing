@@ -9,7 +9,7 @@
 
 .nav-link:hover {
   color: rgb(3, 3, 3);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 a {
@@ -94,6 +94,27 @@ a {
 .search-section-heading h3 {
   z-index: 1000;
 }
+
+.events-wrapper {
+  position: relative;
+}
+
+.event-bg {
+  position: absolute;
+  z-index: -1;
+}
+
+.event-card-body {
+  background-color: #ffffff;
+}
+.event-bg img {
+  width: 100%;
+  height: 150%;
+  z-index: -1;
+  opacity: 70%;
+  top: 0;
+}
+
 .events-wrapper h2 {
   font-weight: 700;
   color: rgb(3, 23, 116);
@@ -138,6 +159,7 @@ a {
 
 .event-card:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
 }
 
 .event-tickets p {
@@ -197,4 +219,145 @@ a {
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  border-bottom: 5px solid transparent;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  border-bottom: 5px solid rgb(22, 22, 165);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+.what-our-clients {
+  background-color: #ffffff;
+}
+.what-our-clients-heading h2 {
+  font-weight: 700;
+  color: rgb(9, 9, 131);
+}
+
+.what-our-clients-heading span {
+  font-weight: 500;
+  color: rgb(80, 78, 78);
+}
+
+.slick-prev {
+  border: none;
+  background-color: rgb(12, 12, 46);
+  color: rgb(12, 12, 46);
+  padding: 15px 15px;
+  position: absolute;
+  top: -25px;
+  left: 0;
+  z-index: 1000;
+  clip-path: polygon(0 48%, 50% 0, 100% 100%);
+}
+
+.slick-next {
+  border: none;
+  background-color: rgb(235, 157, 13);
+  color: rgb(235, 157, 13);
+  padding: 15px 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  clip-path: polygon(100% 48%, 0 0, 50% 99%);
+}
+
+.review {
+  text-align: justify;
+}
+
+.client-wrapper {
+  line-height: 10px;
+}
+
+.client-name h6 {
+  font-weight: 800;
+  color: #06087e;
+}
+
+.client-designation p {
+  font-weight: 600;
+  color: grey;
+  font-size: 13px;
+}
+
+#testomonials {
+  position: relative;
+}
+
+.testomonial-wrapper {
+  border: 1px solid rgb(241, 234, 234);
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.checked {
+  color: orange;
+}
+
+.event-card {
+  background-color: #ffffff;
+}
+
+.main-footer-wrapper {
+  background-color: #04041a;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-link i {
+  color: #08b2f5;
+}
+
+.main-footer-wrapper h6 {
+  color: #e7f1f5;
+}
+
+.site-map li {
+  list-style: none;
+}
+
+.site-map-link a {
+  font-size: 14px;
+  color: rgb(199, 214, 241);
+  transition: 0.5s ease;
+}
+
+.site-map-link a:hover {
+  font-size: 14px;
+  color: rgb(72, 119, 207);
+  padding-left: 5px;
 }
