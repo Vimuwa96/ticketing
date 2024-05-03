@@ -49,3 +49,19 @@ $(".your-class").slick({
     },
   ],
 });
+
+document.querySelectorAll(".increase").forEach((button) => {
+  button.addEventListener("click", () => {
+    const input = button.parentElement.querySelector(".ticket-qty");
+    input.value = parseInt(input.value) + 1;
+  });
+});
+
+document.querySelectorAll(".decrease").forEach((button) => {
+  button.addEventListener("click", () => {
+    const input = button.parentElement.querySelector(".ticket-qty");
+    if (parseInt(input.value) > 1) {
+      input.value = parseInt(input.value) - 1;
+    }
+  });
+});

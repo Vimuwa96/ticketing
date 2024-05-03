@@ -238,7 +238,7 @@ a {
 
 /* Style the buttons inside the tab */
 .tab button {
-  background-color: inherit;
+  background-color: white;
   float: left;
   border: none;
   outline: none;
@@ -380,4 +380,100 @@ a {
   font-size: 14px;
   color: rgba(248, 2, 2, 0.911) !important;
   padding-left: 5px;
+}
+
+.main-content-wrapper {
+  background-color: #04041a;
+}
+
+.breadcrumb a {
+  color: white;
+}
+
+.breadcrumb span a {
+  color: rgb(8, 161, 250);
+}
+
+.tablinks {
+  background-color: #ffffff;
+}
+
+.main {
+  position: relative;
+}
+
+.bg-img-cover {
+  position: absolute;
+  right: 0;
+  background-repeat: repeat;
+}
+
+.step-number h2 {
+  background-color: #000000;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 50%;
+  color: white;
+  border: 5px solid rgb(235, 157, 13);
+}
+
+.event-main-name h2 {
+  font-weight: 700;
+  color: rgb(19, 19, 78);
+}
+
+.increase {
+  border: none;
+  background-color: rgb(235, 157, 13);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 50%;
+}
+
+.decrease {
+  border: none;
+  background-color: rgb(235, 157, 13);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 50%;
+}
+
+.ticket-qty {
+  border: none;
+}
+
+.increase,
+.decrease:hover {
+  background-color: #000000;
+}
+
+.row-amount {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.total {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ee3f3f;
+}
+
+.checkout-link {
+  background-color: #2a2ca0;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 15px;
+}
+
+.checkout-link:hover {
+  background-color: rgb(235, 157, 13);
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 15px;
+}
+
+.checkout-link button {
+  color: white;
+  border: none;
+  background-color: transparent;
 }
